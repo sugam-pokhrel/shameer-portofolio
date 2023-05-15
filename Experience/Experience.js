@@ -1,4 +1,4 @@
-import * as THREE from "../node_modules./three";
+import * as THREE from "../node_modules/three";
 import Sizes from "./Utils/Sizes.js";
 import Time from "./Utils/Time.js";
 import Resources from "./Utils/Resources.js";
@@ -11,7 +11,6 @@ import Preloader from "./Preloader.js";
 
 import World from "./World/World.js";
 import Controls from "./World/Controls.js";
-import main from "../main.js";
 
 export default class Experience {
     static instance;
